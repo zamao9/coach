@@ -62,7 +62,6 @@ a {
   text-shadow: 0 0 2px #fff;
 }
 .logo {
-  font-family: 'Comforter', cursive;
   font-size: 25px;
   color: #000;
   font-weight: 700;
@@ -295,6 +294,7 @@ a {
 }
 
 .intro_title {
+  font-family: 'Comforter', cursive;
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 15px;
