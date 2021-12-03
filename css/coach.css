@@ -76,7 +76,7 @@ a {
 
 .burger.active {
   transition: all 1s ease;
-  transform: rotateY(360deg)
+  transform: rotateY(180deg)
 }
 .burger {
   width: 25px;
@@ -127,14 +127,14 @@ a {
 
 .burger.active
 .burger_items:before {
-  transform: rotate(45deg);
+  transform: rotate(45deg) rotateY(180deg);
   bottom: 0;
   background-color: #fff;
   box-shadow: 0 0 2px #fff;
 }
 .burger_items:before {
   bottom: 5px;
-  transition: bottom 0.3s ease;
+  transition: bottom 0.3s ease, transform 1s ease;
 }
 .burger:hover
 .burger_items:before {
@@ -147,13 +147,13 @@ a {
 
 .burger.active
 .burger_items:after {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) rotateY(180deg);
   top: 0;
   background-color: #fff;
   box-shadow: 0 0 2px #fff;
 }
 .burger_items:after {
-  transition: top 0.3s ease;
+  transition: top 0.3s ease, transform 1s ease;
   top: 5px;
 }
 .burger:hover
@@ -309,6 +309,57 @@ a {
 }
 
 
+.section {
+  width: 100%;
+  display: block;
+  padding: 50px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  text-align: center;
+
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.icons {
+  font-size: 35px;
+  color: #000;
+  text-shadow: 0 0 2px #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.icons:hover {
+  opacity: 0.5;
+}
+
+
+
+
+/* FOOTER */
+.footer_section {
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.footer_content {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto 15px;
+  padding: 10px 0;
+}
+
+.footer_text {
+  color: #000;
+  text-shadow: 0 0 2px #000;
+}
+
 
 
 @media (min-width: 768px) {
@@ -328,6 +379,7 @@ a {
     border-left: 1px solid rgba(0, 0, 0, 0.2);
 
   }
+
 
 }
 
@@ -387,6 +439,9 @@ a {
     background: transparent;
   }
   .links:last-child {
+    border: none;
+  }
+  .links:first-child {
     border: none;
   }
   .links:hover {
