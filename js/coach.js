@@ -8,6 +8,11 @@ $(function() {
     $('.header').toggleClass('active');
   });
 
+  $('.links').click(function() {
+    $('.links').removeClass('active');
+    $(this).toggleClass('active');
+  })
+
 
 
 })

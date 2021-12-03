@@ -146,7 +146,7 @@ a {
 }
 .burger.active
 .burger_items:before {
-  transform: translate(20%, 7px) rotate(315deg);
+  transform: translate(22%, 7px) rotate(315deg);
   width: 70%;
 }
 .burger_items:before {
@@ -160,7 +160,7 @@ a {
 }
 .burger.active
 .burger_items:after {
-  transform: translate(20%, -7px) rotate(-315deg);
+  transform: translate(22%, -7px) rotate(-315deg);
   width: 70%;
 }
 .burger_items:after {
@@ -330,12 +330,20 @@ a {
 @media (min-width: 1024px) {
   /* HEADER */
   .header {
+    background-color: #fff;
+  }
+  .header:hover {
     background-color: rgb(0 13 74 / 40%);
   }
 
+  .header:hover
   .logo {
     color: #fff;
     text-shadow: 0 0 2px #fff;
+  }
+  .logo {
+    color: #000;
+    text-shadow: 0 0 2px #000;
   }
 
   /* BURGER */
@@ -351,9 +359,19 @@ a {
     width: 60%;
   }
 
+  .header:hover
   .links {
     color: #fff;
     text-shadow: 0 0 2px #fff;
+  }
+  .links.active {
+    transform: scale(1.2);
+    background: none;
+    font-weight: 700;
+  }
+  .links {
+    color: #000;
+    text-shadow: 0 0 2px #000;
     text-align: right;
     flex: none;
     width: auto;
