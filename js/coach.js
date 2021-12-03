@@ -9,7 +9,6 @@ $(function() {
     $('.nav').toggleClass('active');
     $('.header').toggleClass('active');
 
-
   });
 
             /* АКТИВНОСТЬ ССЫЛОК НАВИГАЦИИ */
