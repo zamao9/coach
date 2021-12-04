@@ -92,7 +92,7 @@ a {
   width: 70%;
   transform-origin: center;
   top: 50%;
-  margin: 0 auto;
+  left: 0;
   transform: translate(0, -50%) rotateZ(90deg);
 }
 .burger_items {
