@@ -18,6 +18,16 @@ $(function() {
     $(this).toggleClass('active');
   });
 
+  $('.links').click(function(event) {
+      event.preventDefault();
+
+      $('.nav').removeClass('active');
+      $('.burger').removeClass('active');
+      $('.header').removeClass('active');
+  });
+
+
+
 
 
 
