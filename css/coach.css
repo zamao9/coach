@@ -51,7 +51,7 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  padding: 15px 30px;
+  padding: 15px 15px;
   margin: 0 auto;
 }
 
@@ -89,7 +89,7 @@ a {
   width: 70%;
   transform-origin: center;
   top: 50%;
-  transform: translate(0, -50%) rotate(90deg);
+  transform: translate(4px, -50%) rotate(90deg);
 }
 .burger_items {
   position: absolute;
