@@ -73,9 +73,6 @@ a {
   transform: scale(1.2);
 }
 
-.burger.active {
-  transform: rotate(0deg);
-}
 .burger {
   width: 25px;
   height: 25px;
