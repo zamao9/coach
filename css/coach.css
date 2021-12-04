@@ -92,7 +92,8 @@ a {
   width: 70%;
   transform-origin: center;
   top: 50%;
-  transform: translate(22%, -50%) rotateZ(90deg);
+  margin: 0 auto;
+  transform: translate(0, -50%) rotateZ(90deg);
 }
 .burger_items {
   position: absolute;
