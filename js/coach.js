@@ -38,7 +38,7 @@ $(function() {
 
     offset: 0,
     delay: 0,
-    duration: 1500,
+    duration: 2000,
     easing: 'ease',
     once: false,
     mirror: false,
