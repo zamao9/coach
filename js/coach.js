@@ -38,9 +38,9 @@ $(function() {
 
     offset: 0,
     delay: 0,
-    duration: 2000,
+    duration: 3000,
     easing: 'ease',
-    once: false,
+    once: true,
     mirror: false,
     anchorPlacement: 'top-bottom',
   })
