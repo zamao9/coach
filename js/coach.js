@@ -42,7 +42,7 @@ $(function() {
     easing: 'ease',
     once: false,
     mirror: false,
-    anchorPlacement: 'bottom-bottom',
+    anchorPlacement: 'top-bottom',
   })
 
 
