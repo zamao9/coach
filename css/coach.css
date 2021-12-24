@@ -296,13 +296,17 @@ a {
 }
 .about_me {
   position: relative;
+  transition: all 0.4s ease;
+}
+.about_me:hover {
+  text-shadow: 0 0 2px #000c;
 }
 .about_me:after {
   position: absolute;
   display: block;
   content: '';
   bottom: 6px;
-  left: 82%;
+  left: 75%;
   transform: rotate(-45deg);
 
   width: 8px;
@@ -335,8 +339,8 @@ a {
   transform: translateX(-50%);
 
   color: #fff;
-
 }
+
 
 
 
@@ -354,6 +358,10 @@ a {
 .presentation {
   position: relative;
   margin-bottom: 15px;
+  transition: all 0.4s ease;
+}
+.presentation:hover {
+  text-shadow: 0 0 2px #000c;
 }
 .presentation:after {
   position: absolute;
@@ -616,7 +624,11 @@ a {
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
+  transition: all 0.4s ease;
   color: #fff;
+}
+.brand:hover {
+  text-shadow: 0 0 2px #fff;
 }
 .brand:after {
   position: absolute;
@@ -652,7 +664,7 @@ a {
   color: #fff;
   text-align: left;
 
-  margin: 0 auto 15px;
+  margin: 15px auto;
   padding-left: 55px;
 }
 .skills_text:before {
@@ -714,6 +726,7 @@ a {
 /* CONTACT */
 .tenth {
   padding: 30px;
+  background-color: #9aa2ae;
 }
 
 .contact {
@@ -731,6 +744,10 @@ a {
   text-transform: capitalize;
   font-weight: 500;
   font-size: 16px;
+  transition: all 0.4s ease;
+}
+.contact_btn:hover {
+  text-shadow: 0 0 2px #000c;
 }
 
 
@@ -757,6 +774,10 @@ a {
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
+  transition: all 0.4s ease;
+}
+.campaign:hover {
+  text-shadow: 0 0 2px #fff;
 }
 .campaign:after {
   position: absolute;
@@ -786,6 +807,15 @@ a {
 
 .links_web {
   padding: 15px;
+}
+
+.web_btn {
+  width: auto;
+  max-width: none;
+  transition: all 0.4s ease;
+}
+.web_btn:hover {
+  text-shadow: 0 0 2px #000c;
 }
 
 
