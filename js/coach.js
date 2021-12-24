@@ -87,6 +87,7 @@ $(function () {
 
     $('.header').removeClass('active');
     $('.nav').removeClass('active');
+    $('.burger').removeClass('active');
 
   });
 

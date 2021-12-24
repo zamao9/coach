@@ -58,7 +58,7 @@ a {
 .header.active
 .logo {
   font-size: 0;
-  font-weight: 500;
+  font-weight: 300;
   color: transparent;
 }
 .logo {
@@ -152,13 +152,12 @@ a {
 }
 
 .links.active {
-  font-weight: 300;
-  text-shadow: none;
+  font-weight: 500;
 }
 .links {
   margin: 15px 0;
 
-  font-weight: 500;
+  font-weight: 300;
   text-shadow: 0 0 2px #000c;
   transition: all 0.4s ease;
 }
@@ -278,7 +277,7 @@ a {
 .title {
   font-size: 23px;
   margin-bottom: 15px;
-  font-weight: 500;
+  font-weight: 300;
   text-shadow: 0 0 2px #000c
 }
 
@@ -293,7 +292,7 @@ a {
   margin: 0 auto;
   max-width: 260px;
   width: 100%;
-  font-weight: 500;
+  font-weight: 300;
   text-transform: uppercase;
   text-shadow: 0 0 2px #000c;
 }
@@ -429,7 +428,7 @@ a {
 
 .subtitle {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   text-shadow: 0 0 2px #000c;
   margin-bottom: 15px;
 }
@@ -729,7 +728,7 @@ a {
 }
 
 .contact_subtitle {
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 50px;
 }
 
