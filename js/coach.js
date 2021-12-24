@@ -74,6 +74,8 @@ $(function () {
     event.preventDefault();
 
     $(this).toggleClass('active');
+    $('.nav').toggleClass('active');
+    $('.header').toggleClass('active');
 
   });
 
