@@ -151,6 +151,10 @@ a {
   background-color: #9da8f7 ;
 }
 
+.links.active {
+  font-weight: 300;
+  text-shadow: none;
+}
 .links {
   margin: 15px 0;
 

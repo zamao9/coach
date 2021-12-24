@@ -79,6 +79,20 @@ $(function () {
 
   });
 
+  $('.links').click(function(event) {
+    event.preventDefault();
+
+    $("#nav a").removeClass('active');
+    $(this).addClass('active');
+
+    $('.header').removeClass('active');
+    $('.nav').removeClass('active');
+
+  });
+
+
+
+
 
 
 
