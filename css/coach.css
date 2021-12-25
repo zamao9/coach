@@ -179,13 +179,8 @@ a {
   border-bottom: 2px solid #0000004d;
   border-radius: 7px 0 0 7px;
 
-  transition: border-color 0.4s ease, background 0.4s ease;
+  transition: background 0.4s ease;
   cursor: pointer;
-}
-.fixed:hover {
-  border-left: 2px solid #000c;
-  border-top: 2px solid #000c;
-  border-bottom: 2px solid #000c;
 }
 
 .scroll {
@@ -193,7 +188,6 @@ a {
   z-index: 999;
   right: 0;
   bottom: 25%;
-
 }
 
 .fixed
@@ -206,16 +200,11 @@ a {
 
   width: 15px;
   height: 15px;
-  transition: background 0.4s ease, border-color 0.4s ease;
+  transition: background 0.4s ease;
 
   border-left: 3px solid #0000004d;
   border-top: 3px solid #0000004d;
   border-radius: 2px;
-}
-.fixed:hover
-.scroll_item {
-  border-left: 3px solid #000c;
-  border-top: 3px solid #000c;
 }
 
 
@@ -898,15 +887,21 @@ a {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 30%;
+    width: 270px;
     height: auto;
 
-    padding: 0;
+    padding: 0 15px;
     background: none;
   }
   .links {
     margin: 0;
-    padding: 0 15px;
+    padding: 0;
+  }
+
+  /* LINE */
+  .line {
+    height: 71px;
+    border: none;
   }
 
   /* CONTAINER */
@@ -1119,11 +1114,13 @@ a {
   .first {
     grid-column-start: 41;
     grid-column-end: 71;
+    border-top: none;
   }
 
   .second {
     grid-column-start: 71;
     grid-column-end: 101;
+    border-top: none;
   }
 
   .cont_2 {
@@ -1137,6 +1134,7 @@ a {
     grid-column-start: 1;
     grid-column-end: 7;
     justify-content: space-between;
+    border-top: none;
   }
   .presentation:after {
     left: 100%;
