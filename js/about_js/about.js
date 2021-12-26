@@ -83,16 +83,17 @@ $(function () {
     $("#nav a").removeClass('active');
     $(this).addClass('active');
 
-    $('.header').removeClass('active');
-    $('.nav').removeClass('active');
-    $('.burger').removeClass('active');
-
   });
 
   $('.links').click(function() {
 
     $("#nav a").removeClass('active');
     $(this).addClass('active');
+
+    $('.header').removeClass('active');
+    $('.nav').removeClass('active');
+    $('.burger').removeClass('active');
+
   });
 
 })
