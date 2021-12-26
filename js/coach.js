@@ -79,8 +79,7 @@ $(function () {
 
   });
 
-  $('.links').click(function(event) {
-    event.preventDefault();
+  $("#linav").click(function() {
 
     $("#nav a").removeClass('active');
     $(this).addClass('active');
@@ -90,9 +89,6 @@ $(function () {
     $('.burger').removeClass('active');
 
   });
-
-
-
 
 
 
