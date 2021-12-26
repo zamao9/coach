@@ -64,6 +64,13 @@ $(function () {
 
   });
 
+                   /**/
+
+  $('.scroll').click(function() {
+    $('.links:nth-child(2)').addClass('active');
+
+  });
+
 
 
 
