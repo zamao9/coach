@@ -65,6 +65,15 @@ $(function () {
 
   });
 
+                  /**/
+
+  $('.scroll').click(function() {
+    $('.links:first').addClass('active');
+
+  });
+
+
+
 
 
 

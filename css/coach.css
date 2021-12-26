@@ -560,7 +560,7 @@ a {
 .void {
   position: relative;
   width: 100%;
-  height: 80px;
+  height: 50px;
 }
 .void_item {
   position: absolute;
@@ -1185,7 +1185,7 @@ a {
     grid-column-end: 33;
   }
   .void {
-  height: 80px;
+    height: 50px;
   }
 
   .seventh {
