@@ -69,6 +69,9 @@ $(function () {
   $('.scroll').click(function() {
     $('.links:nth-child(2)').addClass('active');
 
+    $("#nav a").removeClass('active');
+    $('.links:nth-child(2)').addClass('active');
+
   });
 
 

@@ -75,8 +75,6 @@ $(function () {
 
 
 
-
-
                               /* BURGER */
 
   $('.burger').click(function(event) {
